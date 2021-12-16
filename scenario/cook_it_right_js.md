@@ -137,12 +137,19 @@
 
 ### Первая очередь:
 
-- IDE (Для JavaScript)  
+- [MS VS Code](https://code.visualstudio.com/)  
+    - [Документация](https://code.visualstudio.com/docs):  
+        - SETUP  
+        - GET STARTED  
+        - USER GUIDE
 - Markdown  
-- Node.js  
+- [Node.js](https://nodejs.org/en/)  
+    - [A brief history of Node.js](https://nodejs.dev/learn/a-brief-history-of-nodejs)  
+    - [What is V8?](https://v8.dev/)  
+    - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)  
+    - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)  
     - npm  
     - yarn  
-    - Hashbang comments  
 - Оформление кода  
     - Formatter (Prettier)  
     - Linter (ESLint)  
