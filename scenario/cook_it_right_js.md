@@ -148,6 +148,7 @@
     - [What is V8?](https://v8.dev/)  
     - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)  
     - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)  
+    - [Руководства по Node.js](https://nodeguide.ru/doc/)  
     - npm  
     - yarn  
 - Оформление кода  
