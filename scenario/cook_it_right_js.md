@@ -138,15 +138,20 @@
 
 ### Первая очередь:
 
-- [MS VS Code](https://code.visualstudio.com/)  
+- [MS VS Code Insiders](https://code.visualstudio.com/insiders/)  
     - [Документация](https://code.visualstudio.com/docs):  
-        - SETUP  
-        - GET STARTED  
-        - USER GUIDE
-- Markdown  
+        - [SETUP](https://code.visualstudio.com/docs/setup/setup-overview)  
+        - [GET STARTED](https://code.visualstudio.com/docs/getstarted/introvideos)  
+        - [USER GUIDE](https://code.visualstudio.com/docs/editor/codebasics)  
+        - [JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript)  
+- [Markdown](https://code.visualstudio.com/docs/languages/markdown)  
 - [Node.js](https://nodejs.org/en/)  
     - [A brief history of Node.js](https://nodejs.dev/learn/a-brief-history-of-nodejs)  
     - [What is V8?](https://v8.dev/)  
+    - [Working with JavaScript](https://code.visualstudio.com/docs/nodejs/working-with-javascript)  
+    - [Node.js tutorial in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)  
+    - [Node.js debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)  
+    - [Browser debugging in VS Code](https://code.visualstudio.com/docs/nodejs/browser-debugging)  
     - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)  
     - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)  
     - [Руководства по Node.js](https://nodeguide.ru/doc/)  
