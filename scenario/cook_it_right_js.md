@@ -28,12 +28,13 @@
         - Number  
         - Bigint  
         - String  
-        - [Boolean](https://en.wikipedia.org/wiki/Boolean)  
+        - Boolean  
         - Undefined  
         - Null  
         - Symbol (изучать после Objects)  
-    - Objects (Объекты) (изучать только после Функций, как управляющих структур)  
-    - Function (изучать только после Objects)
+    - Objects (Объекты) (изучать после Функций, как управляющих структур)  
+    - Function (изучать только после Objects)  
+    - Приведение типов (отложить изучение, как можно дальше)  
 - Операции/действия с типами данных  
     - Арифметические  
     - Логические  
@@ -124,24 +125,23 @@
 ### 3. Tools (Инструменты программирования)
 
 - IDE  
-- Node.js  
 - Markdown  
+- Node.js  
 - Программы для форматирования кода (Formatters)  
 - Программы для проверки качества кода (Linters)  
 - Программы для проверки орфографии (Spellers)  
-- Программы для документирования кода (JSDoc)  
+- Программы для документирования кода  
 - Debuging  
 - Testing  
 - Контроль версий (Git)  
-    - GitHub (Онлайн Хранилище репозиториев)  
-- ...  
+- GitHub  (Онлайн Хранилище репозиториев)   
 
 ## Последовательность изучения JavaScript
 
 ### Первая очередь:
 
 - [MS VS Code Insiders](https://code.visualstudio.com/insiders/)  
-    - [Документация](https://code.visualstudio.com/docs):  
+    - [Документация VS Code](https://code.visualstudio.com/docs)  
         - [SETUP](https://code.visualstudio.com/docs/setup/setup-overview)  
         - [GET STARTED](https://code.visualstudio.com/docs/getstarted/introvideos)  
         - [USER GUIDE](https://code.visualstudio.com/docs/editor/codebasics)  
@@ -157,30 +157,37 @@
     - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)  
     - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)  
     - [Руководства по Node.js](https://nodeguide.ru/doc/)  
-    - npm  
-    - yarn  
+    - npm (Менеджер пакетов Node.js)  
+    - yarn (Менеджер пакетов Node.js)  
 - Оформление кода  
     - Formatter (Prettier)  
     - Linter (ESLint)  
 - Проверка орфографии (Code Spell Checker)  
 - Состав языка  
+    - Алфавит  
+    - Лексика  
+    - Синтаксис  
+    - Семантика  
 - Primitive Values (Примитивные значения)  
     - Number  
     - Bigint  
     - String  
-    - Boolean  
+    - [Boolean](https://en.wikipedia.org/wiki/Boolean)  
     - Undefined  
     - Null  
 - Операции с типами данных  
+    - Арифметические  
+    - Логические  
+    - Конкатенация  
 - Литералы  
     - Числовые  
     - Строковые  
     - Template literals (Шаблонные литералы) (interpolated values)  
 - Variables (Переменные)  
 - Control Structures (Управляющие структуры)  
+- Комментирование кода  
 - Функции (как управляющие структуры)  
     - Парадигмы Императивного, Процедурного и Структурного программирования  
-- Комментирование кода  
 - Модульность JS  
 - Документирование кода (JSDoc)  
 - Debuging - Отладка кода  
@@ -190,7 +197,7 @@
     - https://docs.Gitlab.com/ee/Gitlab-basics/start-using-Git.html  
     - https://Git-scm.com/  
     - https://Githowto.com/ru  
-- GitHub  
+- GitHub (Онлайн Хранилище репозиториев)  
     - CLI-утилита для GitHub - [gh](https://cli.github.com/)  
 
 ### Вторая очередь:
@@ -198,6 +205,7 @@
 - Лево- и Право- сторонние выражения  
 - Objects (Объекты)  
 - Symbol  
+- Приведение типов
 - Data Structures (Структуры данных)  
 - Структурированные данные JSON  
 - Обход/перебор значений в итерируемых объектах  
