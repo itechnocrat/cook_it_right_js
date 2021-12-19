@@ -35,6 +35,11 @@
         - Boolean  
             - Операции/действия с типами данных  
                 - Арифметические  
+                    - `+` (addition)
+                    - `-` (subtraction)
+                    - `*` (multiplication)
+                    - `/` (division)
+                    - `%` (modulo)
                 - Сравнения  
                 - Логические  
                 - Конкатенация  
@@ -44,7 +49,7 @@
                 - ...
         - Undefined  
         - Symbol (изучается в теме Objects)  
-    - Null (понадобится в теме Objects)  
+    - Null (изучается в теме Objects)  
     - Objects (Объекты) (изучается в теме Data Structures (Структуры данных))  
 - Variables (Переменные)  
     - let  
@@ -55,12 +60,14 @@
             - Control Structures (Управляющие структуры)  
                 - Sequence (последовательность)  
                 - Selection (ветвление)  
-                    - if statements [ES1]  
-                    - switch statements [ES3]  
+                    - if statements  
+                    - if-else  
+                    - if-else if
+                    - switch statements  
                 - Iteration (Циклы):  
-                    - while loops [ES1]  
-                    - do-while loops [ES3]  
-                    - for loops [ES1]  
+                    - while loops  
+                    - do-while loops  
+                    - for loops  
                 - labeled  
                 - break  
                 - continue  
@@ -105,7 +112,7 @@
 - Strict Mode (Строгий режим)  
 - Парадигма Декларативного программирования  
     - Парадигма Функционального программирования  
-        - Стрелочные функции  
+        - "Стрелочный" синтаксис функций  
 - Scope (Область видимости)  
 - Event-driven (Асинхронное) программирование  
 - Регулярные выражения  
@@ -133,7 +140,7 @@
 - Программы для форматирования кода (Formatters)  
 - Программы для проверки качества кода (Linters)  
 - Программы для проверки орфографии (Spellers)  
-- Программы для документирования кода (Генераторы документации)  
+- Программы для создания документации кода (Генераторы документации)  
 - Debuging  
 - Testing  
 - Контроль версий (Git)  
@@ -208,11 +215,7 @@
 - Шаблонные литералы Тегированные  
 - Модульность JS  
 - Приведение типов
-    - Слабая типизация  
-    - Динамическая типизация  
-- Objects (Объекты)  
-    - Null
-    - Symbol  
+- Data Structures (Структуры данных)  
 - Деструктуризация  
 - Rest operator  
 - Spread operator  
