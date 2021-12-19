@@ -14,9 +14,13 @@
             - Ключевые Слова  
             - Знаки операций  
             - Разделители  
-            - Литералы (изучать после изучения Primitive Values)  
+            - Литералы (весь подраздел изучать после изучения Primitive Values)  
                 - Числовые  
                 - Строковые  
+                    - Template literals/interpolated values (Шаблонные литералы)   
+                        - Нетегированные (изучать после Variables (Переменные))  
+                        - Тегированные (изучать после Function (Функции))  
+                - Объектов (изучается в теме Objects)
     - Синтаксис  
         - Operators (Операции)  
         - Expressions (Выражения)  
@@ -29,38 +33,41 @@
         - Bigint  
         - String  
         - Boolean  
+            - Операции/действия с типами данных  
+                - Арифметические  
+                - Сравнения  
+                - Логические  
+                - Конкатенация  
+                - Приведение типов (возможно отложить изучение на неопределенное время)  
+                    - Слабая типизация  
+                    - Динамическая типизация  
+                - ...
         - Undefined  
-        - Null  
-        - Symbol (изучать после Objects)  
-    - Objects (Объекты) (изучать после Функций, как управляющих структур)  
-    - Function (изучать только после Objects)  
-    - Приведение типов (отложить изучение, как можно дальше)  
-- Операции/действия с типами данных  
-    - Арифметические  
-    - Логические  
-    - Конкатенация  
-- Variables  
+        - Symbol (изучается в теме Objects)  
+    - Null (понадобится в теме Objects)  
+    - Objects (Объекты) (изучается в теме Data Structures (Структуры данных))  
+- Variables (Переменные)  
     - let  
     - const  
 - Лево- и Право- сторонние выражения  
-- Control Structures (Управляющие структуры)  
-    - Sequence (последовательность)  
-    - Selection (ветвление)  
-        - if statements [ES1]  
-        - switch statements [ES3]  
-    - Iteration (Циклы):  
-        - while loops [ES1]  
-        - do-while loops [ES3]  
-        - for loops [ES1]  
-    - labeled  
-    - break  
-    - continue  
-- Function (Функции) (как управляющие структуры)  
-    - Парадигма Императивного программирования  
-    - Парадигма Процедурного программирования  
-    - Парадигма Структурного программирования  
-    - Closure (Замыкания) (изучать после изучения Scope)  
-- Data Types (Типы данных) (Продолжение)  
+- Парадигма Императивного программирования  
+        - Парадигма Структурного программирования  
+            - Control Structures (Управляющие структуры)  
+                - Sequence (последовательность)  
+                - Selection (ветвление)  
+                    - if statements [ES1]  
+                    - switch statements [ES3]  
+                - Iteration (Циклы):  
+                    - while loops [ES1]  
+                    - do-while loops [ES3]  
+                    - for loops [ES1]  
+                - labeled  
+                - break  
+                - continue  
+        - Парадигма Процедурного программирования  
+            - Function (Функции) (как "управляющие структуры")  
+                - Closure (Замыкания) (изучать после изучения Scope)  
+- Data Structures (Структуры данных)  
     - Objects (Объекты)  
         - Парадигма Объектно-Ориентированного Программирования (классическая)  
             - Три кита:  
@@ -76,9 +83,8 @@
                 - get  
             - Конструкторы  
             - this (special keyword)  
+    - Function (Функции) (как Objects)  
     - Standard built-in objects  
-- JSON (Структурированные данные)  
-- Data Structures (Структуры данных)  
     - Built-in Data Structures  
         - Collections (Коллекции)  
             - Indexed collections (Индексированные коллекции)  
@@ -89,28 +95,25 @@
                 - WeakSet  
                 - Map  
                 - WeakMap  
+- Деструктуризация  
+- Rest operator  
+- Spread operator  
 - Обход/перебор значений в итерируемых объектах  
     - for-of loops [ES6]  
     - for-await-of loops [ES2018]  
     - for-in loops (avoid) [ES1]  
-- Template literals (Шаблонные литералы) (interpolated values)  
-    - Нетегированные  
-    - Тегированные  
-- Деструктуризация  
-- Rest operator  
-- Spread operator  
 - Strict Mode (Строгий режим)  
 - Парадигма Декларативного программирования  
-- Парадигма Функционального программирования  
-    - Стрелочные функции  
+    - Парадигма Функционального программирования  
+        - Стрелочные функции  
 - Scope (Область видимости)  
-- Регулярные выражения  
 - Event-driven (Асинхронное) программирование  
+- Регулярные выражения  
 
 ### 2. Расширения JS
 
 - Комментарии  
-- Структурированные данные JSON  
+- JSON (Структурированные данные)  
 - Регулярные выражения  
 - API  
     - Модульность JS  
@@ -130,7 +133,7 @@
 - Программы для форматирования кода (Formatters)  
 - Программы для проверки качества кода (Linters)  
 - Программы для проверки орфографии (Spellers)  
-- Программы для документирования кода  
+- Программы для документирования кода (Генераторы документации)  
 - Debuging  
 - Testing  
 - Контроль версий (Git)  
@@ -145,13 +148,13 @@
         - [SETUP](https://code.visualstudio.com/docs/setup/setup-overview)  
         - [GET STARTED](https://code.visualstudio.com/docs/getstarted/introvideos)  
         - [USER GUIDE](https://code.visualstudio.com/docs/editor/codebasics)  
-        - [JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript)  
-- [Markdown](https://code.visualstudio.com/docs/languages/markdown)  
+            - [Markdown](https://code.visualstudio.com/docs/languages/markdown)  
+            - [JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript)  
 - [Node.js](https://nodejs.org/en/)  
     - [A brief history of Node.js](https://nodejs.dev/learn/a-brief-history-of-nodejs)  
     - [What is V8?](https://v8.dev/)  
     - [Working with JavaScript](https://code.visualstudio.com/docs/nodejs/working-with-javascript)  
-    - [Node.js tutorial in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)  
+    - [Node.js tutorial in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)  
     - [Node.js debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)  
     - [Browser debugging in VS Code](https://code.visualstudio.com/docs/nodejs/browser-debugging)  
     - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)  
@@ -168,27 +171,26 @@
     - Лексика  
     - Синтаксис  
     - Семантика  
-- Primitive Values (Примитивные значения)  
-    - Number  
-    - Bigint  
-    - String  
-    - [Boolean](https://en.wikipedia.org/wiki/Boolean)  
-    - Undefined  
-    - Null  
-- Операции с типами данных  
-    - Арифметические  
-    - Логические  
-    - Конкатенация  
+- Data Types (Типы данных)  
+    - Primitive Values (Примитивные значения)  
+        - Number  
+        - Bigint  
+        - String  
+        - [Boolean](https://en.wikipedia.org/wiki/Boolean)  
+            - Операции/действия с типами данных  
+                - Арифметические  
+                - Сравнения  
+                - Логические  
+                - Конкатенация  
+        - Undefined  
 - Литералы  
     - Числовые  
     - Строковые  
-    - Template literals (Шаблонные литералы) (interpolated values)  
 - Variables (Переменные)  
+- Лево- и Право- сторонние выражения  
+- Шаблонные литералы Нетегированные  
 - Control Structures (Управляющие структуры)  
 - Комментирование кода  
-- Функции (как управляющие структуры)  
-    - Парадигмы Императивного, Процедурного и Структурного программирования  
-- Модульность JS  
 - Документирование кода (JSDoc)  
 - Debuging - Отладка кода  
 - Testing - Tестирование кода  
@@ -202,24 +204,23 @@
 
 ### Вторая очередь:
 
-- Лево- и Право- сторонние выражения  
-- Objects (Объекты)  
-- Symbol  
+- Функции (как управляющие структуры)  
+- Шаблонные литералы Тегированные  
+- Модульность JS  
 - Приведение типов
-- Data Structures (Структуры данных)  
-- Структурированные данные JSON  
-- Обход/перебор значений в итерируемых объектах  
-- Template literals (Шаблонные литералы) (interpolated values)  
-    - Нетегированные  
-    - Тегированные  
+    - Слабая типизация  
+    - Динамическая типизация  
+- Objects (Объекты)  
+    - Null
+    - Symbol  
 - Деструктуризация  
 - Rest operator  
 - Spread operator  
+- JSON (Структурированные данные)  
+- Обход/перебор значений в итерируемых объектах  
+- Стрелочные функции  
 - Scope (Область видимости)  
 - Closure (Замыкания)  
 - Strict mode (Строгий режим)  
-- Парадигма Декларативного программирования  
-- Парадигма Функционального программирования  
-- Стрелочные функции  
-- Регулярные выражения  
 - Event-driven (Асинхронное) программирование  
+- Регулярные выражения  
