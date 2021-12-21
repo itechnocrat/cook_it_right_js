@@ -109,12 +109,13 @@
     - for-of loops [ES6]  
     - for-await-of loops [ES2018]  
     - for-in loops (avoid) [ES1]  
+- Scope (Область видимости)  
 - Strict Mode (Строгий режим)  
+- Event-driven (Асинхронное) программирование  
 - Парадигма Декларативного программирования  
     - Парадигма Функционального программирования  
         - "Стрелочный" синтаксис функций  
-- Scope (Область видимости)  
-- Event-driven (Асинхронное) программирование  
+    - Парадигма Реактивного программирования
 - Регулярные выражения  
 
 ### 2. Расширения JS
@@ -157,6 +158,11 @@
         - [USER GUIDE](https://code.visualstudio.com/docs/editor/codebasics)  
             - [Markdown](https://code.visualstudio.com/docs/languages/markdown)  
             - [JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript)  
+- Состав языка  
+    - Алфавит  
+    - Лексика  
+    - Синтаксис  
+    - Семантика  
 - [Node.js](https://nodejs.org/en/)  
     - [A brief history of Node.js](https://nodejs.dev/learn/a-brief-history-of-nodejs)  
     - [What is V8?](https://v8.dev/)  
@@ -173,11 +179,6 @@
     - Formatter (Prettier)  
     - Linter (ESLint)  
 - Проверка орфографии (Code Spell Checker)  
-- Состав языка  
-    - Алфавит  
-    - Лексика  
-    - Синтаксис  
-    - Семантика  
 - Data Types (Типы данных)  
     - Primitive Values (Примитивные значения)  
         - Number  
