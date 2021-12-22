@@ -151,6 +151,11 @@
 
 ### Первая очередь:
 
+- Состав языка  
+    - Алфавит  
+    - Лексика  
+    - Синтаксис  
+    - Семантика  
 - [MS VS Code Insiders](https://code.visualstudio.com/insiders/)  
     - [Документация VS Code](https://code.visualstudio.com/docs)  
         - [SETUP](https://code.visualstudio.com/docs/setup/setup-overview)  
@@ -158,11 +163,6 @@
         - [USER GUIDE](https://code.visualstudio.com/docs/editor/codebasics)  
             - [Markdown](https://code.visualstudio.com/docs/languages/markdown)  
             - [JavaScript in Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript)  
-- Состав языка  
-    - Алфавит  
-    - Лексика  
-    - Синтаксис  
-    - Семантика  
 - [Node.js](https://nodejs.org/en/)  
     - [A brief history of Node.js](https://nodejs.dev/learn/a-brief-history-of-nodejs)  
     - [What is V8?](https://v8.dev/)  
