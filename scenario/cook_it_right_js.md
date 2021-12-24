@@ -25,7 +25,7 @@
         - Operators (Операции)  
         - Expressions (Выражения)  
         - Statements (Операторы/Инструкции)  
-        - Declarations (Объявления/Неисполняемые операторы)  
+        - Declarations (Объявления/Неисполняемые операторы/инструкции)  
     - Семантика  
 - Data Types (Типы данных)  
     - Primitive Values (Примитивные значения)  
@@ -70,10 +70,10 @@
                     - if-else  
                     - if-else if
                     - switch statements  
-                - Iteration (Циклы):  
-                    - while loops  
-                    - do-while loops  
-                    - for loops  
+                - Iterations/Loops (Циклы):  
+                    - while  
+                    - do-while  
+                    - for  
                 - labeled  
                 - break  
                 - continue  
@@ -109,9 +109,9 @@
                 - Map  
                 - WeakMap  
 - Обход/перебор значений в итерируемых объектах  
-    - for-of loops [ES6]  
-    - for-await-of loops [ES2018]  
-    - for-in loops (avoid) [ES1]  
+    - for-of [ES6]  
+    - for-await-of [ES2018]  
+    - for-in (avoid) [ES1]  
 - Scope (Область видимости)  
 - Деструктуризация  
 - Rest operator  
