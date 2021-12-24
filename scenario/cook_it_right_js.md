@@ -66,10 +66,10 @@
             - Control Structures (Управляющие структуры)  
                 - Sequence (последовательность)  
                 - Selection (ветвление)  
-                    - if statements  
+                    - if  
                     - if-else  
                     - if-else if
-                    - switch statements  
+                    - switch  
                 - Iterations/Loops (Циклы):  
                     - while  
                     - do-while  
