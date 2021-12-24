@@ -66,10 +66,10 @@
     - Selection (ветвление)  
         - if statements [ES1]  
         - switch statements [ES3]  
-    - Iteration (Циклы)  
-        - while loops [ES1]  
-        - do-while loops [ES3]  
-        - for loops [ES1]  
+    - Iteration/Loops (Циклы)  
+        - while [ES1]  
+        - do-while [ES3]  
+        - for [ES1]  
     - labeled  
     - break  
     - continue  
