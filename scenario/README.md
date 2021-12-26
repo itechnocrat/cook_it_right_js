@@ -101,6 +101,8 @@
     - https://docs.Gitlab.com/ee/Gitlab-basics/start-using-Git.html  
     - https://Git-scm.com/  
     - https://Githowto.com/ru  
+    - https://learngitbranching.js.org/  
+    - https://ohmygit.org/  
 - GitHub (Онлайн Хранилище репозиториев)  
     - CLI-утилита для GitHub - [gh](https://cli.github.com/)  
 
