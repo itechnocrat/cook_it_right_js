@@ -12,6 +12,7 @@
         - Лексемы  
             - Identifier (Идентификаторы)  
             - Keywords (Ключевые Слова)  
+                - [Reserved keywords] (Зарезервированные слова)
             - Operators (Знаки операций)  
             - Punctuators (Разделители)  
             - Литералы (весь подраздел изучать после изучения Primitive Values из Data Types)  
