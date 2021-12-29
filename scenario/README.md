@@ -42,35 +42,36 @@
     - Строковые  
     - Template literals/interpolated values (Шаблонные литералы)  
         - Нетегированные  
-- Операции/действия над значениями типов данных  
-    - Арифметические  
-        - `+` (addition)
-        - `-` (subtraction)
-        - `*` (multiplication)
-        - `/` (division)
-        - `%` (modulo)
-    - Comparison Operators (Сравнения)  
+- Operators (Операции/Действия с/над типами данных)  
+    - Arithmetic (Арифметические)  
+        - `+` (addition)  
+        - `-` (subtraction)  
+        - `/` (division)  
+        - `*` (multiplication)  
+        - `%` (modulo)  
+        - `**` (exponentiation)  
+    - Assignment operators (Присваивания)  
+        - `=`  
+    - Equality operators (Равенства)  
         - `==`  
         - `===`  
         - `!=`  
         - `!==`  
+    - Comparison Operators (Сравнения)  
         - `>`  
         - `<`  
         - `>=`  
         - `<=`  
-    - Logical Operators (Логические операции)  
-        - `&&`  
-        - `||`  
-        - `!`  
-    - Conditional (Ternary) Operator (Условная операция)  
-        - (condition) ? expressions_1 : expressions_2  
+    - Binary logical operators (Логические)  
+        - `&&`  (Logical AND)  
+        - `||`  (Logical OR)  
     - Конкатенация  
 - Variables  
-- Объявление переменных  
+- Declarations (Объявления/Неисполняемые инструкции)  
     - let  
     - const  
-- Лево- и Право- сторонние выражения  
 - Инициализация переменных  
+- Лево- и Право- сторонние выражения  
 - Control Structures (Управляющие структуры)  
     - Sequence (Последовательность)  
     - Selection (Ветвление)  
