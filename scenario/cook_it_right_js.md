@@ -13,20 +13,20 @@
             - Identifier (Идентификаторы)  
             - Keywords (Ключевые Слова)  
                 - [Reserved keywords] (Зарезервированные слова)
-            - Operators (Знаки операций)  
+            - Operators (Операции/Действия)  
             - Punctuators (Разделители)  
             - Литералы (весь подраздел изучать после изучения Primitive Values из Data Types)  
                 - Числовые  
                 - Строковые  
                     - Template literals/interpolated values (Шаблонные литералы)   
                         - Нетегированные (изучать после Variables (Переменные))  
-                        - Тегированные (изучать после Function (Функции), как "управляющие структуры")  
+                        - Тегированные (изучать после Function (Функции), как "управляющие структуры")  Arithmetic operators
                 - Объектов (отложить изучение до темы Objects)
     - Синтаксис  
         - Operators (Операции)  
         - Expressions (Выражения)  
-        - Statements (Операторы/Инструкции)  
-        - Declarations (Объявления/Неисполняемые операторы/инструкции)  
+        - Statements (Инструкции)  
+        - Declarations (Объявления/Неисполняемые инструкции)  
     - Семантика  
 - Data Types (Типы данных)  
     - Primitive Values (Примитивные значения)  
@@ -38,38 +38,49 @@
         - Symbol (изучается в теме Objects)  
     - Null (изучать в теме Objects)  
     - Objects (Объекты) (изучать в теме Data Structures (Структуры данных))  
-- Операции/действия с типами данных  
-    - Арифметические  
-        - `+` (addition)
-        - `-` (subtraction)
-        - `*` (multiplication)
-        - `/` (division)
-        - `%` (modulo)
-    - Comparison Operators (Сравнения)  
+- Operators (Операции/Действия с/над типами данных)  
+    - Arithmetic (Арифметические)  
+        - `+` (addition)  
+        - `-` (subtraction)  
+        - `/` (division)  
+        - `*` (multiplication)  
+        - `%` (modulo)  
+        - `**` (exponentiation)  
+    - Assignment operators (Присваивания) (изучать после "Declarations (Объявления/Неисполняемые инструкции)")  
+        - ...  
+    - Equality operators (Равенства) (оставшиеся операции изучать после "Control Structures (Управляющие структуры)")
         - `==`  
         - `===`  
         - `!=`  
         - `!==`  
+    - Comparison Operators (Сравнения)  
         - `>`  
         - `<`  
         - `>=`  
         - `<=`  
-    - Logical Operators (Логические операции)  
-        - `&&`  
-        - `||`  
-        - `!`  
-    - Conditional (Ternary) Operator (Условное выражение) (изучать после Control Structures (Управляющие структуры)  
+    - Bitwise shift operators (Побитовый сдвиг)  
+        - `<<`  
+        - `>>`  
+        - `>>>`  
+    - Binary bitwise operators (Бинарные)  
+        - `&`  
+        - `|`  
+        - `^`  
+    - Binary logical operators (Логические)  
+        - `&&`  (Logical AND)
+        - `||`  (Logical OR)
+    - Conditional (Ternary) Operator (Условная операция)  
         - (condition) ? expressions_1 : expressions_2  
     - Конкатенация  
     - Приведение типов (возможно отложить изучение на неопределенное время)  
         - Слабая типизация  
         - Динамическая типизация  
 - Variables (Переменные)  
-- Declarations (Объявления/Неисполняемые операторы/инструкции)  
+- Declarations (Объявления/Неисполняемые инструкции)  
     - let  
     - const  
-- Лево- и Право- сторонние выражения  
 - Инициализация переменных  
+- Лево- и Право- сторонние выражения  
 - Conditional (Ternary) Operator (Условная операция)  
 - Парадигма Императивного Программирования  
     - Парадигма Структурного Программирования  
