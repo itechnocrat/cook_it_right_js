@@ -47,8 +47,9 @@
         - `%` (modulo)  
         - `**` (exponentiation)  
     - Assignment operators (Присваивания) (изучать после "Declarations (Объявления/Неисполняемые инструкции)")  
+        - `=`  
         - ...  
-    - Equality operators (Равенства) (оставшиеся операции изучать после "Control Structures (Управляющие структуры)")
+    - Equality operators (Равенства) (оставшиеся операции изучать в "Control Structures (Управляющие структуры)")
         - `==`  
         - `===`  
         - `!=`  
@@ -67,8 +68,8 @@
         - `|`  
         - `^`  
     - Binary logical operators (Логические)  
-        - `&&`  (Logical AND)
-        - `||`  (Logical OR)
+        - `&&`  (Logical AND)  
+        - `||`  (Logical OR)  
     - Conditional (Ternary) Operator (Условная операция)  
         - (condition) ? expressions_1 : expressions_2  
     - Конкатенация  
