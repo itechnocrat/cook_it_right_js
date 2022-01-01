@@ -83,9 +83,9 @@
 - Инициализация переменных  
 - Лево- и Право- сторонние выражения  
 - Conditional (Ternary) Operator (Условная операция)  
-- Парадигма Императивного Программирования  
-    - Парадигма Структурного Программирования  
-        - Control Structures (Управляющие структуры)  
+- Control Structures (Управляющие структуры)  
+    - Парадигма Императивного Программирования  
+        - Парадигма Структурного Программирования  
             - Sequence (Последовательность)  
             - Selection (Ветвление)  
                 - if statements  
@@ -99,9 +99,9 @@
             - labeled  
             - break  
             - continue  
-    - Парадигма Процедурного Программирования  
-        - Function (Функции), как "управляющие структуры"  
-            - Closure (Замыкания) (изучать после изучения Scope (область видимости))  
+        - Парадигма Процедурного Программирования  
+            - Function (Функции), как "управляющие структуры"  
+                - Closure (Замыкания) (изучать после изучения Scope (область видимости))  
 - Data Structures (Структуры данных)  
     - Objects (Объекты)  
         - Парадигма Объектно-Ориентированного Программирования (классическая)  
@@ -171,8 +171,8 @@
 - Программы для создания документации кода (Генераторы документации)  
 - Debuging  
 - Testing  
-- Контроль версий (Git)  
-- GitHub (Онлайн Хранилище репозиториев)   
+- Система контроля версий (Git)  
+- GitHub (Хранилище репозиториев)   
 
 ## Последовательность изучения JavaScript
 
@@ -206,6 +206,15 @@
     - Formatter (Prettier)  
     - Linter (ESLint)  
 - Проверка орфографии (Code Spell Checker)  
+- Контроль версий (Git)  
+    - https://ru.wikipedia.org/wiki/Git  
+    - https://docs.Gitlab.com/ee/Gitlab-basics/start-using-Git.html  
+    - https://Git-scm.com/  
+    - https://Githowto.com/ru  
+    - https://learngitbranching.js.org/  
+    - https://ohmygit.org/  
+- GitHub (Онлайн Хранилище репозиториев)  
+    - CLI-утилита для GitHub - [gh](https://cli.github.com/)  
 - Data Types (Типы данных)  
     - Primitive Values (Примитивные значения)  
         - Number  
@@ -218,16 +227,15 @@
     - Строковые  
     - Шаблонные литералы Нетегированные  
 - Операции/действия с типами данных  
-    - Арифметические  
-        - `+` (addition)
-        - `-` (subtraction)
-        - `*` (multiplication)
-        - `/` (division)
-        - `%` (modulo)
-    - Comparison Operators (Сравнения)  
-        - `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`  
-    - Logical Operators (Логические операции)  
-        - `&&`, `||`, `!`  
+    - Arithmetic (Арифметические)  
+        - `+` (addition)  
+        - `-` (subtraction)  
+        - `/` (division)  
+        - `*` (multiplication)  
+        - `%` (modulo)  
+        - `**` (exponentiation)  
+    - Assignment (Присваивания)  
+        - `=`  
     - Конкатенация  
 - Variables (Переменные)  
 - Объявление переменных  
@@ -235,22 +243,12 @@
 - Инициализация переменных  
 - Control Structures (Управляющие структуры)  
 - Conditional (Ternary) Operator (Условная операция)  
-- Комментирование кода  
-- Debuging - Отладка кода  
 - Модульность JS  
+- Debuging - Отладка кода  
+- Комментирование кода  
 - Документирование кода (JSDoc)  
-- Контроль версий (Git)  
-    - https://ru.wikipedia.org/wiki/Git  
-    - https://docs.Gitlab.com/ee/Gitlab-basics/start-using-Git.html  
-    - https://Git-scm.com/  
-    - https://Githowto.com/ru  
-    - https://learngitbranching.js.org/  
-    - https://ohmygit.org/  
 
-- GitHub (Онлайн Хранилище репозиториев)  
-    - CLI-утилита для GitHub - [gh](https://cli.github.com/)  
-
-### Вторая очередь (пока сырое):
+### Вторая очередь (пока сформулировано в произвольном порядке):
 
 - Функции (как управляющие структуры)  
 - Шаблонные литералы Тегированные  
