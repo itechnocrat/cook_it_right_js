@@ -207,12 +207,14 @@
     - Linter (ESLint)  
 - Проверка орфографии (Code Spell Checker)  
 - Контроль версий (Git)  
-    - https://ru.wikipedia.org/wiki/Git  
-    - https://docs.Gitlab.com/ee/Gitlab-basics/start-using-Git.html  
-    - https://Git-scm.com/  
-    - https://Githowto.com/ru  
-    - https://learngitbranching.js.org/  
-    - https://ohmygit.org/  
+    - GIT - Компас для изучения:  
+        - https://ru.wikipedia.org/wiki/Git  
+        - https://git-scm.com/  
+        - https://githowto.com/ru  
+        - https://learngitbranching.js.org/  
+        - https://ohmygit.org/  
+    - Несколько сложнее, зато подробно и про все сразу:
+        - https://docs.gitlab.com/ee/gitlab-basics/  
 - GitHub (Онлайн Хранилище репозиториев)  
     - CLI-утилита для GitHub - [gh](https://cli.github.com/)  
 - Data Types (Типы данных)  
