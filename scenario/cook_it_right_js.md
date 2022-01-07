@@ -2,32 +2,33 @@
 
 ## Структура JavaScript
 
-### 1. Понятия JavaScript в порядке возрастания сложности
+### 1. JavaScript в порядке возрастания важности и сложности
 
 - Состав языка  
     - Алфавит  
         - Character set (Набор символов)  
             - Unicode  
+                - UTF-8  
     - Лексика  
         - Лексемы  
             - Identifier (Идентификаторы)  
             - Keywords (Ключевые слова)  
-                - Reserved keywords (Зарезервированные слова)
+                - Reserved keywords (Зарезервированные слова)  
             - Operators (Операции/Действия)  
             - Punctuators (Разделители)  
-            - Литералы (весь подраздел изучать после изучения Primitive Values из Data Types)  
+            - Литералы (**изучать после изучения Data Types -> Primitive Values**)  
                 - Числовые  
                 - Строковые  
                     - Template literals/interpolated values (Шаблонные литералы)   
-                        - Нетегированные (изучать после Variables (Переменные))  
-                        - Тегированные (изучать после Function (Функции), как "управляющие структуры")  Arithmetic operators
-                - Объектов (отложить изучение до темы Objects)
+                        - Нетегированные (**изучать после Variables (Переменные**))  
+                        - Тегированные (**изучать после Function (Функции), как "управляющие структуры"**)  
+                - Объектов (**отложить изучение до темы Objects**)  
     - Синтаксис  
         - Operators (Операции)  
         - Expressions (Выражения)  
         - Statements (Инструкции)  
-        - Declarations (Объявления/Неисполняемые инструкции)  
-    - Семантика  
+        - Declarations (Объявления)  
+    - Семантика (**возможно отложить**)  
 - Data Types (Типы данных)  
     - Primitive Values (Примитивные значения)  
         - Number  
@@ -35,9 +36,9 @@
         - String  
         - Boolean  
         - Undefined  
-        - Symbol (изучается в теме Objects)  
-    - Null (изучать в теме Objects)  
-    - Objects (Объекты) (изучать в теме Data Structures (Структуры данных))  
+        - Symbol (**изучать в теме Objects**)  
+    - Null (**изучать в теме Objects**)  
+    - Objects (Объекты) (**изучать в теме Data Structures (Структуры данных)**)  
 - Operators (Операции/Действия с/над типами данных)  
     - Arithmetic (Арифметические)  
         - `+` (addition)  
@@ -46,43 +47,44 @@
         - `*` (multiplication)  
         - `%` (modulo)  
         - `**` (exponentiation)  
-    - Assignment operators (Присваивания) (изучать после "Declarations (Объявления/Неисполняемые инструкции)")  
-        - `=`  
-        - ...  
-    - Equality operators (Равенства) (оставшиеся операции изучать в "Control Structures (Управляющие структуры)")
+    - Assignment operators (Назначение, связывание)  
+        - `=` (**изучать после "Declarations (Объявления)"**)  
+        - Destructuring assignment (Деструктурирующее 'значение, связывание) (**изучать после Data Structures (Структуры данных)**)  
+        - `...` Rest operator (список значений => в массив из этих значений) (**изучать после Data Structures (Структуры данных)**)  
+        - `...` Spread operator (массив из значений => в список значений) (**изучать после Data Structures (Структуры данных)**)  
+    - Equality operators (Равенства) (**изучать в "Control Structures (Управляющие структуры)"**)  
         - `==`  
         - `===`  
         - `!=`  
         - `!==`  
-    - Comparison Operators (Сравнения)  
+    - Comparison Operators (Сравнения) (**изучать в "Control Structures (Управляющие структуры)"**)  
         - `>`  
         - `<`  
         - `>=`  
         - `<=`  
-    - Bitwise shift operators (Побитовый сдвиг)  
+    - Binary logical operators (Логические) (**изучать в "Control Structures (Управляющие структуры)"**)  
+        - `&&`  (Logical AND)  
+        - `||`  (Logical OR)  
+    - Bitwise shift operators (Побитовый сдвиг) (**возможно отложить**)  
         - `<<`  
         - `>>`  
         - `>>>`  
-    - Binary bitwise operators (Бинарные)  
+    - Binary bitwise operators (Бинарные) (**возможно отложить**)  
         - `&`  
         - `|`  
         - `^`  
-    - Binary logical operators (Логические)  
-        - `&&`  (Logical AND)  
-        - `||`  (Logical OR)  
     - Conditional (Ternary) Operator (Условная операция)  
         - (condition) ? expressions_1 : expressions_2  
-    - Конкатенация  
-    - Приведение типов (возможно отложить изучение на неопределенное время)  
+    - `+` (Конкатенация)  
+    - Приведение типов (**возможно отложить**)  
         - Слабая типизация  
         - Динамическая типизация  
 - Variables (Переменные)  
-- Declarations (Объявления/Неисполняемые инструкции)  
+- Declarations (Объявление переменных)  
     - let  
     - const  
 - Инициализация переменных  
-- Лево- и Право- сторонние выражения  
-- Conditional (Ternary) Operator (Условная операция)  
+    - Лево- и Право- сторонние выражения  
 - Control Structures (Управляющие структуры)  
     - Парадигма Императивного Программирования  
         - Парадигма Структурного Программирования  
@@ -101,43 +103,44 @@
             - continue  
         - Парадигма Процедурного Программирования  
             - Function (Функции), как "управляющие структуры"  
-                - Closure (Замыкания) (изучать после изучения Scope (область видимости))  
-- Data Structures (Структуры данных)  
-    - Objects (Объекты)  
-        - Парадигма Объектно-Ориентированного Программирования (классическая)  
-            - Три кита:  
-                - Инкапсуляция  
-                - Наследование  
-                - Полиморфизм  
-        - Парадигма Прототипно-Ориентированного Программирования (JavaScript)  
-            - Литералы объектов  
-            - Свойства  
-                - Вычислимые свойства  
-            - Методы  
-                - set  
-                - get  
-            - Конструкторы  
-            - this (special keyword)  
-    - Function (Функции) (как Objects)  
-    - Standard built-in objects  
-    - Built-in Data Structures  
-        - Collections (Коллекции)  
-            - Indexed collections (Индексированные коллекции)  
-                - Array (Массивы)  
-                - Typed Arrays (Типизированные Массивы)  
-            - Keyed collections (Коллекции с ключами)  
-                - Set  
-                - WeakSet  
-                - Map  
-                - WeakMap  
-- Обход/перебор значений в итерируемых объектах  
-    - for-of [ES6]  
-    - for-await-of [ES2018]  
-    - for-in (avoid) [ES1]  
+                - Closure (Замыкания) (**изучать после изучения Scope (область видимости)**)  
+    - Conditional (Ternary) Operator (Условная операция)  
+    - try...catch statement (**возможно отложить**)  
+- Data Types (Типы данных)  
+    - Data Structures (Структуры данных)  
+        - Objects (Объекты)  
+            - Парадигма Объектно-Ориентированного Программирования (классическая)  
+                - Три кита:  
+                    - Инкапсуляция  
+                    - Наследование  
+                    - Полиморфизм  
+            - Парадигма Прототипно-Ориентированного Программирования (JavaScript)  
+                - Литералы объектов  
+                - Свойства  
+                    - Вычислимые свойства  
+                - Методы  
+                    - функции, как методы  
+                    - set  
+                    - get  
+                - Конструкторы  
+                - this (special keyword)  
+        - Function (Функции) (как Objects)  
+        - Standard built-in objects  
+        - Built-in Data Structures  
+            - Collections (Коллекции)  
+                - Indexed collections (Индексированные коллекции)  
+                    - Array (Массивы)  
+                    - Typed Arrays (Типизированные Массивы)  
+                - Keyed collections (Коллекции с ключами)  
+                    - Set  
+                    - WeakSet  
+                    - Map  
+                    - WeakMap  
+        - Обход/перебор значений в итерируемых объектах  
+            - for-of [ES6]  
+            - for-await-of [ES2018]  
+            - for-in (avoid) [ES1]  
 - Scope (Область видимости)  
-- Деструктуризация  
-- Rest operator  
-- Spread operator  
 - Event-driven (Асинхронное) программирование  
 - Парадигма Декларативного Программирования  
     - Парадигма Функционального Программирования  
@@ -149,9 +152,9 @@
 - Комментарии  
 - JSON (Структурированные данные)  
 - API  
-    - Модульность JS  
-    - File system  
     - Console (вывод информации из программы)  
+    - File system  
+    - Модульность JS  
     - Debugger  
     - Browser Object Model или BOM (объектная модель браузера)  
     - Document Object Model или DOM (объектная модель документа)  
@@ -169,7 +172,7 @@
 - Программы для проверки качества кода (Linters)  
 - Программы для проверки орфографии (Spellers)  
 - Программы для создания документации кода (Генераторы документации)  
-- Debuging  
+- Debugger  
 - Testing  
 - Система контроля версий (Git)  
 - GitHub (Хранилище репозиториев)   
@@ -193,20 +196,21 @@
 - [Node.js](https://nodejs.org/en/)  
     - [A brief history of Node.js](https://nodejs.dev/learn/a-brief-history-of-nodejs)  
     - [What is V8?](https://v8.dev/)  
-    - [Working with JavaScript](https://code.visualstudio.com/docs/nodejs/working-with-javascript)  
-    - [Node.js tutorial in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)  
-    - [Node.js debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)  
-    - [Browser debugging in VS Code](https://code.visualstudio.com/docs/nodejs/browser-debugging)  
-    - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)  
-    - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)  
     - [Руководства по Node.js](https://nodeguide.ru/doc/)  
-    - npm (Менеджер пакетов Node.js)  
-    - yarn (Менеджер пакетов Node.js)  
-- Оформление кода  
-    - Formatter (Prettier)  
-    - Linter (ESLint)  
-- Проверка орфографии (Code Spell Checker)  
-- Контроль версий (Git)  
+    - [Working with JavaScript](https://code.visualstudio.com/docs/nodejs/working-with-javascript)  
+        - [Node.js tutorial in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)  
+        - [Node.js debugging in VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)  
+        - [Browser debugging in VS Code](https://code.visualstudio.com/docs/nodejs/browser-debugging)  
+        - [Node.js Tutorial](https://www.w3schools.com/nodejs/default.asp)  
+        - [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)  
+        - npm (Менеджер пакетов Node.js)  
+        - yarn (Менеджер пакетов Node.js)  
+- Обеспечение качества кода  
+    - Оформление кода  
+        - Formatter (Prettier)  
+        - Linter (ESLint)  
+    - Проверка орфографии (Code Spell Checker)  
+- Система контроля версий (Git)  
     - GIT - Компас для изучения:  
         - https://ru.wikipedia.org/wiki/Git  
         - https://git-scm.com/  
@@ -227,7 +231,6 @@
 - Литералы  
     - Числовые  
     - Строковые  
-    - Шаблонные литералы Нетегированные  
 - Операции/действия с типами данных  
     - Arithmetic (Арифметические)  
         - `+` (addition)  
@@ -236,37 +239,120 @@
         - `*` (multiplication)  
         - `%` (modulo)  
         - `**` (exponentiation)  
-    - Assignment (Присваивания)  
+    - Assignment (Назначение, связывание, присваивание)  
         - `=`  
-    - Конкатенация  
+    - `+` Конкатенация  
 - Variables (Переменные)  
-- Объявление переменных  
-- Лево- и Право- сторонние выражения  
+- Литералы  
+    - Шаблонные Нетегированные  
+- Declarations (Объявление переменных)  
+    - let  
+    - const  
 - Инициализация переменных  
+    - Assignment operators (Назначение, связывание, присваивание)  
+        - `=`  
+        - ...  
+    - Лево- и Право- сторонние выражения  
 - Control Structures (Управляющие структуры)  
-- Conditional (Ternary) Operator (Условная операция)  
-- Модульность JS  
+    - Парадигма Императивного Программирования  
+        - Парадигма Структурного Программирования  
+            - Sequence (Последовательность)  
+            - Selection (Ветвление)  
+                - Equality operators (Равенства)  
+                    - `==`  
+                    - `===`  
+                    - `!=`  
+                    - `!==`  
+                - Comparison Operators (Сравнения)  
+                    - `>`  
+                    - `<`  
+                    - `>=`  
+                    - `<=`  
+                - Binary logical operators (Логические)  
+                    - `&&`  (Logical AND)  
+                    - `||`  (Logical OR)  
+                - if statements  
+                - if-else  
+                - if-else if  
+                - switch statement  
+            - Iterations/Loops (Циклы):  
+                - while  
+                - do-while  
+                - for  
+            - labeled  
+            - break  
+            - continue  
+
+- API  
+    - Модульность JS  
 - Debuging - Отладка кода  
 - Комментирование кода  
 - Документирование кода (JSDoc)  
 
-### Вторая очередь (пока сформулировано в произвольном порядке):
+### Вторая очередь (пока несколько сыровата):
 
-- Функции (как управляющие структуры)  
-- Шаблонные литералы Тегированные  
-- Data Structures (Структуры данных)  
-- Обход/перебор значений в итерируемых объектах  
-- Деструктуризация  
-- Rest operator  
-- Spread operator  
-- JSON (Структурированные данные)  
-- Lambda expressions (fat-arrow functions) (стрелочные функции)  
+- Control Structures (Управляющие структуры)  
+    - Функции (как "управляющие структуры")  
+    - try...catch statement  
 - Scope (Область видимости)  
 - Closure (Замыкания)  
-- Strict mode (Строгий режим)  
+- Conditional (Ternary) Operator (Условная операция)  
+- Литералы  
+    - Шаблонные Тегированные  
+- Data Types (Типы данных)  
+    - Data Structures (Структуры данных)  
+        - Objects (Объекты)  
+            - Парадигма Объектно-Ориентированного Программирования (классическая)  
+                - Три кита:  
+                    - Инкапсуляция  
+                    - Наследование  
+                    - Полиморфизм  
+            - Парадигма Прототипно-Ориентированного Программирования (JavaScript)  
+                - Литералы объектов  
+                - Свойства  
+                    - Примитвный тип данных Symbol, как имя свойств  
+                    - Вычислимые свойства  
+                - Методы  
+                    - функции, как методы  
+                    - set  
+                    - get  
+                - Конструкторы  
+                - Классы
+                - this (special keyword)  
+        - Function (Функции) (как Objects)  
+        - Data Type Null  
+        - Standard built-in objects  
+        - Built-in Data Structures  
+            - Collections (Коллекции)  
+                - Indexed collections (Индексированные коллекции)  
+                    - Array (Массивы)  
+                    - Typed Arrays (Типизированные Массивы)  
+                - Keyed collections (Коллекции с ключами)  
+                    - Set  
+                    - WeakSet  
+                    - Map  
+                    - WeakMap  
+        - Обход/перебор значений в итерируемых объектах  
+            - for-of [ES6]  
+            - for-await-of [ES2018]  
+            - for-in (avoid) [ES1]  
+        - Обход/перебор значений в итерируемых объектах  
+            - for-of [ES6]  
+            - for-await-of [ES2018]  
+            - for-in (avoid) [ES1]  
+- Operators (Операции/Действия с/над типами данных)  
+    - Assignment operators (Назначение, связывание)  
+        - Destructuring assignment (Деструктурирующее 'значение, связывание)  
+        - `...` Rest operator (список значений => в массив из этих значений)  
+        - `...` Spread operator (массив из значений => в список значений)  
 - Приведение типов  
-- Event-driven (Асинхронное) программирование  
-- Регулярные выражения  
 - Testing - Tестирование кода  
-- try...catch statement
-- etc.
+- JSON (Структурированные данные)  
+- Strict mode (Строгий режим)  
+- Управляющие последовательности символов
+- Регулярные выражения  
+- Парадигма Декларативного Программирования  
+    - Парадигма Функционального Программирования  
+        - Lambda expressions (fat-arrow functions) (стрелочные функции)  
+    - Парадигма Реактивного Программирования
+- Event-driven (Асинхронное) программирование  
