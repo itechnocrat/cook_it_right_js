@@ -1,9 +1,5 @@
 # Структура JavaScript и последовательность его изучения
 
-Это структура сценария для будущего видео-рассказа, но видео-рассказ будет готов не скоро, а структурой возможно пользоваться уже сейчас.  
-Очень часто вношу правки, синхронизируйте репозиторий тоже часто.  
-Читайте файл README.md  
-
 ## Структура JavaScript
 
 ### 1. JavaScript в порядке возрастания важности и сложности
@@ -222,13 +218,17 @@
         - Code Spell Checker  
 - Version Control System или Revision Control System (Система контроля версий/Система управления версиями)  
     - GIT - Компас для изучения:  
-        - https://ru.wikipedia.org/wiki/Git  
-        - https://git-scm.com/  
-        - https://githowto.com/ru  
-        - https://learngitbranching.js.org/  
-        - https://ohmygit.org/  
-    - Несколько сложнее, зато подробно и про все сразу:
-        - https://docs.gitlab.com/ee/gitlab-basics/  
+        - [Хороший старт начинается с Wiki](https://ru.wikipedia.org/wiki/Git?useskin=vector)  
+        - [Официальная страница Git](https://git-scm.com/)  
+            - [Quick reference guides: GitHub Cheat Sheet](https://training.github.com/)  
+            - [Quick reference guides: Visual Git Cheat Sheet](https://ndpsoftware.com/git-cheatsheet.html#loc=index;)  
+            - [Reference manual](https://git-scm.com/docs)  
+            - [Pro Git book](https://git-scm.com/book/en/v2)  
+        - [Экскурсия с гидом, которая знакомит с основами Git](https://githowto.com/ru/)  
+            - [учебные материалы (абсолютно ненунжные)](https://githowto.com/git_tutorial.zip)  
+        - [Интерактивный учебник](https://learngitbranching.js.org/)  
+        - [An open source game about learning Git!](https://ohmygit.org/)  
+        - [Несколько сложнее, зато подробно и про все сразу](https://docs.gitlab.com/ee/gitlab-basics/)  
 - GitHub (Онлайн Хранилище репозиториев)  
     - CLI-утилита для GitHub - [gh](https://cli.github.com/)  
 - Data Types (Типы данных)  
@@ -297,7 +297,7 @@
 - API  
     - Модульность JS  
 
-### Вторая очередь (пока несколько сыровата):
+### Вторая очередь (ещё несколько сыровата):
 
 - Control Structures (Управляющие структуры) (**Продолжение**)  
     - Функции (как "управляющие структуры")  
@@ -346,10 +346,6 @@
                     - WeakSet  
                     - Map  
                     - WeakMap  
-        - Обход/перебор значений в итерируемых объектах  
-            - for-of [ES6]  
-            - for-await-of [ES2018]  
-            - for-in (avoid) [ES1]  
         - Обход/перебор значений в итерируемых объектах  
             - for-of [ES6]  
             - for-await-of [ES2018]  
