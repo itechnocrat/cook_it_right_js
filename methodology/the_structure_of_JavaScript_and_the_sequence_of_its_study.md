@@ -12,14 +12,14 @@
     - Keywords (Ключевые слова)  
       - Reserved keywords (Зарезервированные слова)  
     - Operators (Операции/Действия)  
-    - Punctuators (Разделители)  
-    - Литералы (**изучать после Data Types -> Primitive Values**)  
-      - Числовые  
-      - Строковые  
-        - Template literals/interpolated values (Шаблонные литералы)  
-          - Нетегированные (**изучать после Variables (Переменные**))  
-          - Тегированные (**изучать после Function (Функции), как "управляющие структуры"**)  
-      - Объектов (**отложить изучение до темы Objects**)  
+    - [Punctuators](https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#sec-punctuators) (Разделители)  
+    - [Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#literals) (Литералы)  
+      - Array (Массивов)
+      - Boolean (Двоичные)
+      - Numeric (Числовые)
+      - Object (Объектов) (**отложить изучение до темы Objects**)
+      - RegExp (Регулярных выражений)
+      - String (Строковые)
 - Синтаксис  
   - Operators (Операции/Действия)  
   - Expressions (Выражения)  
@@ -72,13 +72,13 @@
     - `^`  
   - Concatenating strings (Конкатенация/Объединение строк)  
     - `+`  
-  - Conditional (Ternary) Operator (Условная операция)  
+  - Conditional (Ternary) Operator (Условная операция/действие)  
     - (condition) ? expressions_1 : expressions_2  
   - Приведение типов (**возможно отложить**)  
     - Слабая типизация  
     - Динамическая типизация  
 - Variables (Переменные)  
-- Declarations (Объявление переменных)  
+- Declarations (Объявления)  
   - let  
   - const (**возможно отложить**)  
 - Инициализация переменных  
@@ -104,7 +104,6 @@
       - continue  
     - Парадигма Процедурного Программирования  
       - Function (Функции), как "управляющие структуры"  
-        - Closure (Замыкания) (**изучать после изучения Scope (область видимости)**)  
   - Conditional (Ternary) Operator (Условная операция)  
   - try...catch statement (**возможно отложить**)  
 - Data Types (Типы данных)  
@@ -142,6 +141,7 @@
       - for-await-of [ES2018]  
       - for-in (avoid) [ES1]  
 - Scope (Область видимости)  
+- Closure (Замыкание)  
 - Event-driven (Асинхронное) программирование  
 - Парадигма Декларативного Программирования  
   - Парадигма Функционального Программирования  
@@ -173,9 +173,9 @@
   - Embedded Debugger (Встроенный Отладчик)
 - Markdown (Упрощенная разметка текста)  
 - Node.js (Среда выполнения кода)  
-- Генераторы документации (Программы для создания документации кода)  
+- Создание документации кода (JSDoc)  
 - Testing (тестирование кода)  
-- Version Control System или Revision Control System (Система контроля версий/Система управления версиями)  
+- Version Control System или Revision Control System (Система контроля версий/Система управления версиями) - Git  
 - GitHub (Хранилище репозиториев)  
 
 ## Последовательность изучения JavaScript
@@ -213,6 +213,7 @@
     - Linter (ESLint)  
   - Проверка орфографии  
     - Code Spell Checker  
+  - Комментирование кода  
 - Version Control System или Revision Control System (Система контроля версий/Система управления версиями)  
   - GIT - Компас для изучения:  
     - [Хороший старт начинается с Wiki](https://ru.wikipedia.org/wiki/Git)  
@@ -235,8 +236,8 @@
     - Boolean  
     - Undefined  
 - Литералы  
-  - Числовые  
-  - Строковые    
+  - Numeric (Числовые)  
+  - String (Строковые)  
 - Operators (Операции/Действия с/над типами данных)  
   - Arithmetic (Арифметические)  
     - `+` (addition)  
@@ -249,9 +250,8 @@
     - `+`  
 - Variables (Переменные)  
   - Литералы (**Продолжение**)  
-    - Template literals/interpolated values (Шаблонные литералы)  
-                - Нетегированные  
-- Declarations (Объявление переменных)  
+    - Template literals/template strings (Шаблонные литералы)  
+- Declarations (Объявления)  
   - let  
 - Инициализация переменных  
   - Assignment operators (Назначение, связывание)  
@@ -288,8 +288,6 @@
       - break  
       - continue  
 - Debuging (Отладка кода)  
-- Комментирование кода  
-- Генераторы документации (JSDoc)  
 - API  
   - Модульность JS  
 
@@ -298,13 +296,11 @@
 - Control Structures (Управляющие структуры) (**Продолжение**)  
   - Функции (как "управляющие структуры")  
 - Литералы (**Продолжение**)  
-  - Template literals/interpolated values (Шаблонные литералы)
+  - Template literals/template strings (Шаблонные литералы)
     - Тегированные  
 - Control Structures (Управляющие структуры) (**Продолжение**)  
   - try...catch statement  
-- Scope (Область видимости)  
-- Closure (Замыкания)  
-- Declarations (Объявление переменных) (**Продолжение**)  
+- Declarations (Объявления) (**Продолжение**)  
   - const  
 - Data Types (Типы данных) (**Продолжение**)  
   - Data Structures (Структуры данных)  
@@ -331,6 +327,7 @@
           - Symbol  
           - Null  
     - Function (Функции) (как Objects)  
+    - Создание документации кода (JSDoc)  
     - Standard built-in objects  
     - Built-in Data Structures  
       - Collections (Коллекции)  
@@ -353,6 +350,8 @@
     - Приведение типов  
       - Слабая типизация  
       - Динамическая типизация  
+- Scope (Область видимости)  
+- Closure (Замыкание)  
 - Testing (Тестирование кода)  
 - JSON (Структурированные данные)  
 - Strict mode (Строгий режим)  
