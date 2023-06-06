@@ -8,23 +8,26 @@
       - UTF-8  
 - Лексика  
   - Лексемы  
+    - [Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#literals) (Литералы)  
+      - Numeric (Числовые)
+      - String (Строковые)
+      - Array (Массивов) (**отложить изучение до темы**)
+      - Boolean (Двоичные)(**отложить изучение до темы**)
+      - Object (Объектов) (**отложить изучение до темы Objects**)
+      - RegExp (Регулярных выражений)(**отложить изучение до темы**)
     - Identifier (Идентификаторы)  
     - Keywords (Ключевые слова)  
       - Reserved keywords (Зарезервированные слова)  
     - Operators (Операции/Действия)  
     - [Punctuators](https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#sec-punctuators) (Разделители)  
-    - [Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#literals) (Литералы)  
-      - Array (Массивов)
-      - Boolean (Двоичные)
-      - Numeric (Числовые)
-      - Object (Объектов) (**отложить изучение до темы Objects**)
-      - RegExp (Регулярных выражений)
-      - String (Строковые)
+  - Comments (Комментарии)
+  - Whitespace, Line Breaks, and Format Control Characters
+  - Optional Semicolons
 - Синтаксис  
   - Operators (Операции/Действия)  
   - Expressions (Выражения)  
   - Statements (Инструкции)  
-  - Declarations (Объявления)  
+    - Declaration Statements (Объявления)  
 - Семантика (**возможно отложить**)  
 - Data Types (Типы данных)  
   - Primitive Values (Примитивные значения)  
@@ -35,7 +38,7 @@
     - Undefined  
     - Symbol (**изучать в теме Objects**)  
     - Null (**изучать в теме Objects**)  
-  - Objects (Объекты) (**изучать в теме Data Structures (Структуры данных)**)  
+  - Objects (Объекты) (**изучать в теме Data Structures**)  
 - Operators (Операции/Действия с/над типами данных)  
   - Arithmetic (Арифметические)  
     - `+` (addition)  
@@ -49,7 +52,7 @@
     - Destructuring assignment (Деструктурирующее назначение, связывание) (**изучать после Data Structures (Структуры данных)**)  
     - `...` Rest operator (список значений => в массив из этих значений) (**изучать после Data Structures (Структуры данных)**)  
     - `...` Spread operator (массив из значений => в список значений) (**изучать после Data Structures (Структуры данных)**)  
-  - Equality operators (Равенства) (**изучать в "Control Structures (Управляющие структуры)"**)  
+  - Equality and Inequality operators (Равенства и неравенства) (**изучать в "Control Structures (Управляющие структуры)"**)  
     - `==`  
     - `===`  
     - `!=`  
@@ -78,23 +81,24 @@
     - Слабая типизация  
     - Динамическая типизация  
 - Variables (Переменные)  
-- Declarations (Объявления)  
+- Declaration Statements (Объявления)  
   - let  
   - const (**возможно отложить**)  
 - Инициализация переменных  
 - Operators (Операции/Действия с/над типами данных) (**Продолжение**)  
   - Assignment operators (Назначение, связывание)  
     - `=`  
-- Лево- и Право- сторонние выражения  
+- Лево- и Право- сторонние выражения **Необходимо заметить то, что это завершение освоения некоего "микро ядра" языка**
 - Control Structures (Управляющие структуры)  
   - Парадигма Императивного Программирования  
     - Парадигма Структурного Программирования  
       - Sequence (Последовательность)  
-      - Selection (Ветвление)  
-        - if statements  
-        - if-else  
-        - if-else if  
-        - switch statement  
+        - Selection (Ветвление)
+          - Conditionals Statements (Условные инструкции)
+            - if
+            - if-else  
+            - if-else if  
+            - switch  
       - Iterations/Loops (Итерации/Циклы):  
         - while  
         - do-while  
@@ -103,11 +107,12 @@
       - break  
       - continue  
     - Парадигма Процедурного Программирования  
-      - Function (Функции), как "управляющие структуры"  
+      - Declaration Statements (Объявления)
+        - Function (Функции), как "управляющие структуры"  
   - Conditional (Ternary) Operator (Условная операция)  
   - try...catch statement (**возможно отложить**)  
-- Data Types (Типы данных)  
-  - Data Structures (Структуры данных)  
+- Data Types (Типы данных) (**Продолжение**)  
+  - Data Structures (Структуры данных)(сдвинуть вверх, в первое вхождение Data Types)
     - Objects (Объекты)  
       - Парадигма Объектно-Ориентированного Программирования (классическая)  
         - Три кита:  
@@ -150,7 +155,6 @@
 
 ### Расширения JS
 
-- Комментарии  
 - JSON (Структурированные данные)  
 - API  
   - Console (вывод информации из программы)  
@@ -251,7 +255,7 @@
 - Variables (Переменные)  
   - Литералы (**Продолжение**)  
     - Template literals/template strings (Шаблонные литералы)  
-- Declarations (Объявления)  
+- Declaration Statements (Объявления)  
   - let  
 - Инициализация переменных  
   - Assignment operators (Назначение, связывание)  
@@ -300,7 +304,7 @@
     - Тегированные  
 - Control Structures (Управляющие структуры) (**Продолжение**)  
   - try...catch statement  
-- Declarations (Объявления) (**Продолжение**)  
+- Declaration Statements (Объявления) (**Продолжение**)  
   - const  
 - Data Types (Типы данных) (**Продолжение**)  
   - Data Structures (Структуры данных)  
