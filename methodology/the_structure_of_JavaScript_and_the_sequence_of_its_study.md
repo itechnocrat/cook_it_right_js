@@ -81,14 +81,18 @@
     - Слабая типизация  
     - Динамическая типизация  
 - Variables (Переменные)  
-- Declaration Statements (Объявления)  
-  - let  
-  - const (**возможно отложить**)  
-- Инициализация переменных  
+- Declaration Statements (Объявления)
+  - Variable Declaration
+    - let
+    - const (**возможно отложить**)
+  - Variable Initialization
+  - Variable Scope
+    - Lexical Scope
+    - Block scope
 - Operators (Операции/Действия с/над типами данных) (**Продолжение**)  
   - Assignment operators (Назначение, связывание)  
     - `=`  
-- Лево- и Право- сторонние выражения **Необходимо заметить то, что это завершение строительства первого фундамента языка**
+- Лево- и Право- сторонние выражения
 - Control Structures (Управляющие структуры)  
   - Парадигма Императивного Программирования  
     - Парадигма Структурного Программирования  
@@ -105,16 +109,18 @@
         - for  
       - labeled  
       - break  
-      - continue **Необходимо заметить то, что это завершение строительства второго фундамента языка**
+      - continue **Milestone**
     - Парадигма Процедурного Программирования  
-      - Declaration Statements (Объявления)
-        - Function (Функции)(as subroutine or procedure), рассматривать, как управляющие структуры
-        - Scope (Область видимости)  
-        - Closure (Замыкание)
-  - Conditional (Ternary) Operator (Условная операция)  
-  - try...catch statement (**возможно отложить**)  
+      - Declaration Statements (Объявления) (**Продолжение**)
+        - Functions (Функции)(as subroutine or procedure)
+          - Function Scope (Контекст функции)
+          - [Scope Chain](https://bool.dev/blog/detail/scope-chain-v-javascript)
+          - Hoisting
+          - Closure (Замыкание) **Первый фундамент языка построен**
+  - Conditional (Ternary) Operator (Условная операция) (**возможно отложить**)
+  - try...catch statement (**возможно отложить**)
 - Data Types (Типы данных) (**Продолжение**)  
-  - Data Structures (Структуры данных)(сдвинуть вверх, в первое вхождение Data Types)
+  - Data Structures (Структуры данных)(сдвинуть ? вверх, в первое вхождение Data Types)
     - Objects (Объекты)  
       - Парадигма Объектно-Ориентированного Программирования (классическая)  
         - Три кита:  
@@ -131,7 +137,7 @@
           - get  
         - Конструкторы  
         - this (special keyword)  
-    - Function (Функции) (как Objects)  
+    - Function (Функции) (as Objects)  
     - Standard built-in objects  
     - Built-in Data Structures  
       - Collections (Коллекции)  
